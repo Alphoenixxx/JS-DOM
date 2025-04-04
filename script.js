@@ -18,7 +18,7 @@ button.addEventListener("click", function () {
     list.appendChild(newTask);
     input.value = "";
 
-    // Étape 4
+    // Étape 5
     newTask.addEventListener('click', function() {
         this.remove();
     });
